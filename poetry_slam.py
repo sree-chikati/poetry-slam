@@ -10,8 +10,8 @@ def lines_printed_backwards(line_list):
     reverse = ''
     count = len(line_list)
     for line in poem_dict_lines:
-        count = count - 1
-        reverse = str(count) + " " + line
+        count = count -1
+        reverse += str(count) + " " + line
     return reverse
 print(lines_printed_backwards("poem.txt"))
 """
