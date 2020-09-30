@@ -10,10 +10,10 @@ def get_file_lines(filename):
     poem_lines = file_lines.read().splitlines()
     file_lines.close()
     return poem_lines
-    
+
 print(get_file_lines("poem1.txt"))
 
-print(" ")
+print(" ") #Adding a space between the functions in the terminal
 
 # FUNCTION 2----------------------------------------------------
 def lines_printed_backwards(line_list):
@@ -31,7 +31,7 @@ def lines_printed_backwards(line_list):
 poem = open('./poem1.txt', 'r')
 lines_printed_backwards(poem.read().splitlines())
 
-print(" ")
+print(" ")#Adding a space between the functions in the terminal
 
 # FUNCTION 3----------------------------------------------------
 def lines_printed_random(line_list):
@@ -46,7 +46,7 @@ def lines_printed_random(line_list):
 poem = open('./poem1.txt', 'r')
 lines_printed_random(poem.read().splitlines())
 
-print(" ")
+print(" ")#Adding a space between the functions in the terminal
 
 # FUNCTION 4----------------------------------------------------
 def lines_printed_custom(line_list):
