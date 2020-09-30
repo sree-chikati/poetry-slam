@@ -1,6 +1,8 @@
 #importing random(). This allows us to get a random selection of things
 from random import randint
 
+print(" ") #Adding a space between the functions in the terminal
+
 # FUNCTION 1----------------------------------------------------
 def get_file_lines(filename):
     """
@@ -11,7 +13,7 @@ def get_file_lines(filename):
     file_lines.close()
     return poem_lines
 
-print(get_file_lines("poem1.txt"))
+print(get_file_lines("./poem1.txt"))
 
 print(" ") #Adding a space between the functions in the terminal
 
