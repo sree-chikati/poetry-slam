@@ -1,5 +1,6 @@
 #importing random(). This allows us to get a random selection of things
 from random import randint
+from random import choice
 
 print(" ") #Adding a space between the functions in the terminal
 
@@ -69,3 +70,5 @@ def lines_printed_custom(lines_list):
 poem = open('./poem1.txt', 'r')
 lines_printed_custom(poem.readlines())
 poem.close()
+
+
