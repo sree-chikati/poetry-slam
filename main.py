@@ -7,7 +7,7 @@ print(" ") #Adding a space between the functions in the terminal
 # FUNCTION 1----------------------------------------------------
 def get_file_lines(filename):
     """
-    Reaturns a list of strings containing the lines of the file
+    Returns a list of strings containing the lines of the file
     """
     file_lines = open(filename, "r")
     #splitlines() splits string into a list and is done at line breaks
@@ -59,7 +59,7 @@ print(" ")#Adding a space between the functions in the terminal
 # FUNCTION 4----------------------------------------------------
 def lines_printed_custom(lines_list):
     """
-    The lines of the poem will be printed in a alphabetical order.
+    The lines of the poem will be printed in a reversed alphabetical order.
     """
     #sorted function return a sorted alphabetically ordered list.
     # Here, we are reversing the alphabetical sort with reverse=True. 
